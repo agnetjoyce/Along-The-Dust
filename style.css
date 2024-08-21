@@ -1,16 +1,16 @@
-/* Global Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* font-family: "Inter", sans-serif; */
     /* font-family: "Outfit", sans-serif; */
-    /* font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    
 
 }
 
 nav {
-    background-color: rgba(255, 255, 255, 0); /* Fully transparent background */
+    background-color: rgba(255, 255, 255, 0); 
     height: 90px;
     display: flex;
     justify-content: space-between;
@@ -23,7 +23,7 @@ nav {
 }
 
 nav img {
-    height: 90px; /* Adjusted to fit within navbar height */
+    height: 90px; 
     padding-bottom: 20px;
 }
 

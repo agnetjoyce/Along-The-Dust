@@ -1,0 +1,649 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Inter", sans-serif; */
+    /* font-family: "Outfit", sans-serif; */
+    /* font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0); /* Fully transparent background */
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding-top: 30px;
+    padding-right: 60px;
+}
+
+nav img {
+    height: 90px; /* Adjusted to fit within navbar height */
+    padding-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-top: 50px;
+}
+
+nav ul li a {
+    margin: 10px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: rgb(197, 181, 15);
+}
+
+.bg {
+    background-image: url('./images/x1.jpg'); 
+    background-size: cover;
+    background-position: center ;
+    height: 110vh;
+    position: sticky;
+    
+}
+#logo{
+    height: 150px;
+    margin-top: 100px;
+}
+nav button{
+    margin-bottom: 20px;
+    width: 80px;
+    background-color: #ffffff00;
+
+}
+nav button:hover{
+    color: #8f000000;
+    background-color: #ffffff93;
+    
+}
+nav button a{
+    height: 30px;
+    background-color: #29292900;
+    color: #000;
+    text-decoration: none;
+}
+
+/******************************************************************************/
+.banner{
+    background-color: #ffffff;
+    height: 930px;
+    padding-top: 200px;
+    
+}
+.banner p{
+    margin-left:240px;
+    padding-top: 30px;
+    font-size: 16px;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+}
+
+.banner i{
+    font-size: 25px;
+}
+.along2 img{
+    width: 370px;
+    height: 470px;
+    margin-left: 900px;
+    margin-top: 800px;
+    position: absolute;
+    top: 120px;
+    z-index: 1;
+}
+#our{
+    font-family: "Quicksand", sans-serif;
+    font-size: medium;  
+    margin-left: 50px;
+    font-weight: 600;
+}
+#we{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Quicksand", sans-serif;
+    
+}
+.box1{
+    /* align-items: center; */
+    background-color: rgb(255, 235, 226);
+    width: 300px;
+    height: 90px;
+    position: absolute;
+    margin-left: 700px;
+    z-index: 2;
+    margin-top: -100px;
+}
+#swoosh img{
+    width: 700px;
+    height: 80px;
+    margin-top: 200px;
+    margin-left: 450px;
+}
+
+#readmore{       
+    position: absolute;
+    margin-left: 180px;
+    width:80px;
+    height: 30px;
+    font-size: 10px;
+    background-color: #fff;
+    border: #29292900;
+    
+}
+/**************************************** card section **********************************************/
+.custom-card {
+    border: none !important; 
+    border-radius: 0 !important; 
+    width: 100%;
+    padding-bottom: 100px;
+    /* margin-bottom: 500px; */
+    /* margin: 10px 0;  */
+}
+
+.card-img-top {
+    border-radius: 0 !important; 
+    width: 100%; 
+    height: 250px; 
+    object-fit: cover; 
+}
+
+.row {
+    padding-left: 100px ;
+    padding-right: 100px ;
+    padding-top: 20px;
+    /* padding-bottom: 90px; */
+}  
+
+.home {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.home h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Outfit", sans-serif;
+}
+
+.home p {
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+
+}
+#down {
+    width: 350px;
+    height: 50px;
+    border-color: #929c64e7;
+    border-style:solid;
+    border-radius: 0 ; 
+    font-family: "Kanit", sans-serif;
+    background-color: #ffc8c800;
+    color: #929c64e7;
+    text-transform: uppercase;
+    font-size: smaller;
+    
+}
+#down:hover{
+    color: #000000;
+    background-color: #929c64e7;
+}
+.card-title{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: small;
+    justify-content: center;
+}
+/**************************** Costa Rica *************************/ 
+
+#about{
+    height: 750px;
+    /* text-align: center; */
+}
+#about img{
+    width:100%
+}
+#about .text-overlay {
+    position: absolute;
+    left: 40%;
+    transform: translate(-10%, -220%); 
+    color: white; 
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.025); 
+    padding: 20px; 
+    border-radius: 5px; 
+}
+
+.text-overlay h1 {
+    font-size: 66px; 
+    margin-bottom: 10px;
+    font-family: "Outfit", sans-serif; 
+}
+
+.text-overlay p {
+    font-size: 18px; 
+    font-family: "Quicksand", sans-serif; 
+    text-transform: uppercase;
+    
+}
+
+/**************************** Best things to do *************************/
+#project{
+    height: 980px;
+    /* text-align: center; */
+}
+#project .custom-card {
+    border: none; 
+    border-radius: 0; 
+}
+#project .card-img-top {
+    border-radius: 0; 
+    width: 350px; 
+    height: 350px; 
+    object-fit: cover; 
+}
+#project .row {
+    margin-top: -50px; 
+    margin-bottom: 100px;
+    
+}
+/**************************** Travel journal  *************************/
+
+#train{
+    height: 780px;
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+}
+#train img{
+    width:100%
+}
+#train h1{
+    margin: 20px;
+    margin-left: 120px;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+}
+#train .text-overlay {
+    position: absolute;
+    left: 40%;
+    transform: translate(-35%, -205%); 
+    color: white; 
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.025); 
+    padding: 20px; 
+    border-radius: 5px; 
+}
+
+#train .text-overlay h1 {
+    font-size: 66px; 
+    margin-bottom: 10px;
+    font-family: "Outfit", sans-serif; 
+    text-align: center;
+    text-shadow: #000000;
+}
+
+#train .text-overlay p {
+    font-size: 20px; 
+    font-family: "Quicksand", sans-serif; 
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: #000000;
+}
+
+.travelnote{
+    font-family: "Outfit", sans-serif; 
+    text-align: center;
+    margin-top: 80px;
+}
+
+/**************** 4*3 grid section ******************/
+#gridsec{
+    height: 1000px;
+    text-align: center;
+    margin-top: 100px;
+}
+#gridsec .row3{
+    padding-left: 200px; 
+    padding-right: 200px; 
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#gridsec .col-md-3 {
+    padding-top: 5px;   
+    padding-bottom: 5px; 
+}
+#gridsec .custom-card {
+    border: none !important; 
+    border-radius: 0 !important; 
+    width: 100%;
+    padding-bottom: 0px;
+    /* margin-bottom: 500px; */
+    /* margin: 10px 0;  */
+}
+
+#gridsec.card-img-top {
+    border-radius: 0 !important; 
+    width: 100%; 
+    height: 250px; 
+    object-fit: cover; 
+}
+/**************** Fly and Italy ******************/
+
+#flysec{
+    height: 1350px;
+    background-color: rgb(255, 255, 255);
+}
+#flysec img{
+    width:100%
+}
+/********************  3 Card Grid ***************************/
+
+#cardsec{
+    height: 1300px;
+}
+#cardsec .custom-card {
+    border: none; 
+    border-radius: 0; 
+}
+#cardsec .card-img-top {
+    border-radius: 0; 
+    width: 350px; 
+    height: 450px; 
+    object-fit: cover; 
+}
+#cardsec .row4{
+    padding-left: 200px; 
+    padding-right: 200px; 
+    padding-top: 5px;
+    padding-bottom: 0px;
+    /* margin-bottom: 100px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.land img{
+    width: 1099px;
+    height: 650px;
+    margin-left: 199px;
+    margin-top: -110px ;
+    position: absolute;
+}
+.landnote{
+    margin-top: 570px;
+    text-align: center;
+    font-weight: 400;
+    font-size: larger;
+    font-family: "Outfit", sans-serif; 
+    text-transform: uppercase;
+
+}
+/* ********* Slides *********** */
+.last{
+    height: 1190px;
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.last img{
+    width:100%
+}
+.last h1{
+    margin: 20px;
+    margin-left: 120px;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+}
+.last .text-overlay {
+    position: absolute;
+    left: 40%;
+    transform: translate(-35%, -215%); 
+    color: white; 
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0); 
+    padding: 20px; 
+    border-radius: 5px; 
+}
+
+.last .text-overlay h1 {
+    font-size: 66px; 
+    margin-bottom: 10px;
+    font-family: "Outfit", sans-serif; 
+    text-align: center;
+    text-shadow: #000000;
+}
+
+.last .text-overlay p a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px; 
+    font-family: "Quicksand", sans-serif; 
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: #643838;
+}
+.last .text-overlay p a:hover{
+    color: #291f0e;
+}
+
+.last button{
+    background-color: #2a292940;
+    color: #ffffff;
+    width: 150px;
+    /* margin-top: 10px; */
+    margin-left: -280px;
+    border-color: #fff;
+}
+.last button:hover{
+    color: #f6ff00;
+}
+/* ************************ PERU ***************************** */
+.peru{
+    height: 750px;
+}
+.peru.custom-card {
+    border: none !important; 
+    border-radius: 0 !important; 
+    width: 100%;
+    padding-bottom: 100px;
+    /* margin-bottom: 500px; */
+    /* margin: 10px 0;  */
+}
+
+.peru.card-img-top {
+    /* border-radius: 0 !important;  */
+    width: 100%; 
+    /* height: 500px; */
+    /* object-fit: cover;  */
+}
+
+.peru .row9{
+    padding-left: 90px; 
+    padding-right: 90px; 
+    padding-top: 50px;
+    padding-bottom: 0px;
+    /* margin-bottom: 100px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} 
+.peru.card-title{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: small;
+    justify-content: center;
+}
+#perubtn{
+    margin-top: 15px;
+    width: 150px;
+    height: 40px;
+    background-color:#0000000a;
+    border: #627608e7;
+    
+}
+.peru img{
+    height: 350px;
+}
+.peru h5{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    text-transform: none;
+    
+}
+.peru h4{
+    font-family: "Outfit", sans-serif;
+    font-size: larger;
+}
+
+#trvl{
+    height: 1350px;
+}
+#trvl img{
+    width: 100%;
+    
+}
+#trvl h1{
+    margin: 20px;
+    margin-left: 120px;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+}
+#trvl .text-overlay {
+    position: absolute;
+    left: 30%;
+    transform: translate(-25%, -265%); 
+    color: white; 
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0); 
+    padding: 20px; 
+    border-radius: 5px; 
+}
+
+#trvl .text-overlay h1 {
+    font-size: 60px; 
+    margin-bottom: 10px;
+    font-family: "Outfit", sans-serif; 
+    text-align: center;
+    text-shadow: #000000;
+}
+#trvl a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 30px;
+}
+#trvl a:hover{
+    color: #bfc600;
+    font-weight: 900;
+
+}
+.snip img{
+    width: 200px;
+    height: 300px;
+}
+#ighead{
+    text-align: center;
+    margin-top: 70px;
+    font-family: "Outfit", sans-serif;
+}
+#ignote{
+    text-align: center;
+    margin-top: 90px;
+    font-family: "Outfit", sans-serif; 
+
+}
+/***************************** footer *********************/
+
+.foot{
+    height: 600px;
+    background-color: rgb(252, 247, 242);
+}
+#footnav {
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Outfit", sans-serif;
+}
+
+#footnav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+#footnav li {
+    display: inline;
+    margin: 0 10px; 
+}
+#footnav a{
+    text-decoration: none;
+    color: #000000;
+}
+#footnav a:hover{
+    color: #e39b00;
+    scale: 1.02;
+}
+#footnote{
+    font-family: "Outfit", sans-serif;
+    justify-content:flex-end;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+#footnote i{
+    font-size: xx-large;
+    padding: 7px;
+}
+#footnote img{
+    height: 100px;
+    margin-left: -170px;
+    margin-top: -90px;
+    width: 600px;
+}
+#links{
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    margin-top: -250px;
+}
+#links a{
+    text-decoration: none;
+    color: #000;
+}
+#links a:hover{
+    color: #e39b00;
+}
+.footbox{
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    margin-top: -250px;
+    margin-left: 900px;
+}
+.footbox button{
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #000;
+    font-size: small;
+    color: #ffffff;
+}
+#fool{
+    margin-top: 70px;
+}
+/*  ************************************************************************  */
